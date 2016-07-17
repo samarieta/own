@@ -1,15 +1,51 @@
+
+ @font-face {
+    font-family: 'FTY Varoge Saro Noest NCV';
+    src: url('../font/FTY Varoge Saro Noest NCV.ttf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+ @font-face {
+    font-family: 'Certa Sans Medium';
+    src: url('../font/Certa Sans Medium.ttf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+ h2 {
+    font-family: 'FTY Varoge Saro Noest NCV';
+     color: #5c6c7e;
+     text-align: center;
+     
+   }
+
+ p {
+    font-family: 'Certa Sans Medium';
+   }
+h1 {
+     color: midnightblue;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
 body {
     font-size: 19px;
     font-weight: 400;
     line-height: 1.2em;
-    font-family: "SegoeUI Semilight", Arial, sans-serif;
+    font-family: "Certa Sans Medium", Arial, sans-serif;
     text-transform: uppercase;
     color: #5f5f5f;
-    background-color: #f2f2f2;
+    background-color: #fff;
+    width: 1200px;
+     margin: 0 auto;
 }
 header {
     width: auto;
     background-color: white;
+    min-height: 240px;
 }
 .first-menu ul {
     margin: 0;
@@ -22,7 +58,7 @@ header {
 .first-menu li {
     display: inline-block;
     min-height: 54px;
-    width: 240px;
+    width: 120px;
     font-size: 14px;
     list-style: none;
     text-align: center;
@@ -51,22 +87,18 @@ header {
     line-height: 57px;
     list-style: none;
     text-decoration: none;
-     color: #fff;
+     color:  #5c6c7e;
 }
 .logo{
-width: 1100px;
-    min-height: 490px;
-    
-    background-image: url('../img/road2.JPG');
+    min-height: 260px;
+    background-image: url('../img/Bus%20Set.jpg');
     background-repeat: no-repeat;
-    background-position: 0 20%;
-    background-color: #5c6c7e;
-    
-      
+    background-position: 50% 20%;
+    background-color: #fff;
+     
    
 }
 .logotext {
-      min-height: 459px;
     background-image: url('../img/samarieta_mainlogo.png');
     background-repeat: no-repeat;
     background-position: 50% 79px;
@@ -80,4 +112,103 @@ input[type="submit"] {
     border-radius: 5px;
     background: #2c3e50;
     color: #fff;
+}
+
+.center {
+    display: block;
+    
+    outline: solid black 2px;
+    width: auto;
+}
+.aside {
+    display: block;
+    float:left;
+    outline: solid black 2px;
+    width: 30%;
+}
+.block1 {
+    display: block;
+    width: 68%;
+    outline: solid black 2px;
+}
+.text1  {
+    display: block;
+    float:left;
+    width: 50%;
+    outline: solid black 2px;
+    }
+
+.block2 {
+    display: block;
+    float:left;
+    width: 33%;
+     outline: solid black 2px;
+    }
+.text2  {
+    display: block;
+    float:left;
+    outline: solid black 2px;
+    }
+.event {
+    display: block;
+    float:left;
+    width: 67%;
+    outline: solid black 2px;
+}
+
+.block3 {
+     display: block;
+    float:left;
+    width: 67%;
+     outline: solid black 2px;
+}
+
+.page-footer {
+     display: block;
+        width: 67%;
+     outline: solid black 2px;
+}
+
+ .aboutme   {
+    display: block;
+    float:right;
+    outline: solid black 2px;
+    }
+
+.menu-event li {
+display: block;
+float: left;
+outline: solid black 2px;
+margin-right: 17px;
+width: 30%;
+    background-image: url(../img/fest.JPG);
+    min-height: 300px;
+}
+.thumb-block1{
+    display: block;
+   
+    background-image: url(../img/yoga_article.jpg);
+  
+     margin-left: 40px;
+    min-height: 335px;
+    width: 78%
+}
+
+.block3{
+    display: block;
+    background-image: url(../img/ps.jpg);
+    margin-top: 55px;
+    min-height: 275px;
+    width: 67%;
+}
+.text-block3 {
+    background-color: white;
+    display: block;
+    margin: 16px;
+    min-height: 300px;
+    width: 60%;
+}
+
+.text-block3 h2 {
+    padding-top: 25px;
 }
